@@ -1,0 +1,113 @@
+/* Fill CSS here */
+body>div{
+    display: flex;
+    width:90%;
+    margin: auto;
+}
+body>h1 {
+    /* margin: auto;
+    height:25px; */
+    text-align: center;
+    color: rgb(58, 58, 145);
+}
+form {
+    width:25%;
+    height:auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    padding: 25px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+form input{
+    height:25px;
+    font-weight: bolder;
+}
+form label{
+    height:25px;
+    font-weight: bolder;
+    margin: -10px;
+    margin-left: 03px;
+}
+form select{
+    height:35px;
+    /* font-weight: bolder; */
+    border: 1px solid grey;
+}
+form>input:last-child{
+    background-color: rgb(39, 39, 104);
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+    border:0px;
+}
+table{
+    width:70%;
+    border:1px solid green;
+    height:250px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+ table>thead{
+     width:100%;
+     height:25px;
+     border: 1px solid rgb(59, 59, 142);
+     align-items: flex-start;
+     justify-content:center;
+     background-color: rgb(54, 54, 147);
+     /* display: flex; */
+     
+ }
+ thead>tr{
+     display: grid;
+    grid-template-columns: 12% 12% 12% 17% 17% 15% 9% 5%;
+    grid-template-rows: 50px;
+    /* justify-content:space-evenly; */
+    /* background-color: blue; */
+    /* margin: auto; */
+ }
+ thead>tr>th{
+     width: auto;
+     height: auto;
+color: white;
+border-left: 1px solid white;
+font-size: large;
+/* padding: 5px; */
+ }
+
+ table>tbody{
+    width:100%;
+    height:50px;
+    /* border: 1px solid rgb(59, 59, 142); */
+    align-items: flex-start;
+    justify-content:center;
+    /* background-color: rgb(54, 54, 147); */
+    /* display: flex; */
+    
+}
+tbody>div{
+    display: flex;
+   justify-content:space-evenly;
+   border: 1px solid black;
+   height: 50px;
+   font-size:medium ;
+   font-weight: bold;
+   margin: auto;
+   
+   /* background-color: blue; */
+   /* margin: auto; */
+}
+tbody>div>td:nth-child(){
+margin-left: 50px;
+}
+/* tbody>div>td{
+    width: auto;
+    height: auto;
+color: white;
+border-left: 1px solid black;
+font-size: large;
+padding: 5px;
+} */
